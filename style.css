@@ -16,24 +16,44 @@ h2{
     font-size: 40px;
 }
 .title{
-    color: #FF0000;
+    color: #EA4C88;
 }
 .ph{
-    color: #696969;
+    color: #dddddd;
+}
+.ff{
+
 }
 .last{
     width: 300px;
-    margin: auto;
-    box-shadow: 0px 0px 23px 10px rgba(0,0,0,0.63);
+    margin: 0 30px;
+    box-shadow: 0px 0px 8px 10px #808080;
     padding: 40px;
     border-radius: 35px;
     text-align: justify;
 }
-.last p{
+.last:hover{
+    box-shadow: 0px 0px 25px 13px #808080;
+}
+.last p{ 
     width: 300px;
 }
 .flex{
     display: flex;
+}
+.fffoootttr{
+    margin: 60px auto;
+    box-shadow: 0px 0px 90px 10px #dadada;
+    width: 900px;
+    padding: 50px;
+    border-radius: 20px;
+    display: flex;
+}
+.fffoootttr h1{
+    margin: 60px auto;
+}
+.fffoootttr p{
+    margin: 60px auto;
 }
 .half{
     width: 50%;

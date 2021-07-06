@@ -26,14 +26,16 @@ h2{
 }
 .last{
     width: 300px;
-    margin: 0 30px;
-    box-shadow: 0px 0px 8px 10px #808080;
-    padding: 40px;
+    margin: 0 40px;
+    box-shadow: 5px 5px 20px #808080;
+    padding: 30px;
     border-radius: 35px;
-    text-align: justify;
+}
+img{
+    border-radius: 20px;
 }
 .last:hover{
-    box-shadow: 0px 0px 25px 13px #808080;
+    box-shadow:10px 10px 50px grey;
 }
 .last p{ 
     width: 300px;
@@ -41,20 +43,11 @@ h2{
 .flex{
     display: flex;
 }
-.fffoootttr{
-    margin: 60px auto;
-    box-shadow: 0px 0px 90px 10px #dadada;
-    width: 900px;
-    padding: 50px;
-    border-radius: 20px;
-    display: flex;
-}
-.fffoootttr h1{
-    margin: 60px auto;
-}
 .Footer{
     background-color: black;
+    margin-top: 50px;
     text-align: center;
+    padding: 40px;
 }
 .Footer h1{
     font-size: 30px;
@@ -87,7 +80,7 @@ h2{
     text-decoration: none;
     background-image: linear-gradient(red,#ff7300);
     padding: 10px 40px;
-    border-radius: 25px 0 25px 0;
+    border-radius: 15px 0 15px 0;
     font-weight: 700;
     color: white;
 }
